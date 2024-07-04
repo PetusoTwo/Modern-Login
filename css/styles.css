@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+
+/*
+@Autor: PetusoTwo
+*/
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../imgs/fondoP.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor {
+    position: relative;
+    width: 400px;
+    border: 2px solid rgba(113, 88, 88, 0.6);
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor h2 {
+    font-size: 2.3rem;
+    color: #402e6b;
+    text-align: center;
+}
+
+.input-contenedor {
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.input-contenedor label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .6s;
+    font-weight: bold;
+}
+
+input:focus ~ label, 
+input:valid ~ label {
+    top: -5px;
+    font-size: 0.75rem;
+}
+
+.input-contenedor input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 5px;
+    color: #680a0a;
+}
+
+.input-contenedor span {
+    position: absolute;
+    color: #fff;
+    font-size: 1.6rem;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+.olvidar {
+    margin: -15px 0 15px;
+    font-size: .9rem;
+    color: #050000;
+    display: flex;
+    justify-content: center;
+}
+
+.olvidar label input {
+    margin: 3px;
+}
+
+.olvidar label a {
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+    font-size: .9rem;
+}
+
+.olvidar label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: .4s;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+.registrar {
+    font-size: .8rem;
+    color: #030000;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.registrar p a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.registrar p a:hover {
+    text-decoration: underline;
+}
