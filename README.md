@@ -7,10 +7,6 @@
 ![image](https://github.com/PetusoTwo/Modern-Login/assets/96096173/9f287c38-7196-41fe-86e5-e59133a0c1ae)
 
 
-<h2></h2>
-
-
-
 ![WhatsApp Image 2024-07-04 at 22 00 04](https://github.com/PetusoTwo/Modern-Login/assets/96096173/f634f4db-044d-43a7-bdb7-84140960bc31)
 
 <p>Preview: 
