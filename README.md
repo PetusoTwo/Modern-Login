@@ -1,14 +1,33 @@
 # Modern-Login
-![image](https://github.com/PetusoTwo/Modern-Login/assets/96096173/3c88acf5-d93e-4173-8ef4-91e4a0893b37)
+# Login Moderno en HTML y CSS
 
-<h2></h2>
+Este proyecto es una página de inicio de sesión moderna creada con HTML y CSS. Ofrece un diseño elegante y funcional para la autenticación de usuarios.
 
+## Interfaz de Usuario
 
 ![image](https://github.com/PetusoTwo/Modern-Login/assets/96096173/9f287c38-7196-41fe-86e5-e59133a0c1ae)
 
+### Funcionalidades
 
-![WhatsApp Image 2024-07-04 at 22 00 04](https://github.com/PetusoTwo/Modern-Login/assets/96096173/f634f4db-044d-43a7-bdb7-84140960bc31)
+1. **Formulario de Inicio de Sesión:**
+   - Campos para ingresar el nombre de usuario y la contraseña.
+   - Botón para iniciar sesión.
 
-<p>Preview: 
-<a href="https://petusotwo.github.io/Modern-Login/">Modern Login</a>
-</p>
+2. **Diseño Moderno:**
+   - Interfaz de usuario atractiva y fácil de usar.
+
+## Uso
+
+### Vista Previa
+
+- Puedes ver una vista previa de la página de inicio de sesión en el siguiente enlace:
+
+  [Modern Login](https://petusotwo.github.io/Modern-Login/)
+
+### Implementación
+
+- Clona o descarga el repositorio y abre el archivo `index.html` en tu navegador para ver el diseño en acción.
+
+## Consideraciones
+
+- Este proyecto está diseñado para proporcionar una base sólida para formularios de inicio de sesión. Puedes personalizar el diseño y los estilos según tus necesidades.
